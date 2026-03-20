@@ -1,2 +1,0 @@
-SUBSYSTEM=="tty", GROUP="plugdev". MODE="0660"
-SUBSYSTEMS=="usb", ATTRS{idProduct}=="7523", ATTRS{idVendor}=="1a86", SYMLINK+="arduino"
